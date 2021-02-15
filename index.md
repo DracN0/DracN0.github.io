@@ -15,7 +15,7 @@ Don't worry if enumeration is hard for you, especially at first. The more you do
 
 ### Note Taking 
 
-Taking organized notes is severely important. I cannot stress it enough that your documentation is both very important to you, and far more important to the client. Make good note taking habbits, as if all of your notes could be handed to your client at any moment. This mindset will keep you organized and develop good habits. You'll find yourself missing services, directories, steps you took leading up to your initial shell or a cluster of screenshots with sub par explanations of what your screenshot means.
+Taking organized notes is severely important. I cannot stress it enough that your documentation is both very important to you, and far more important to the client. Make good note taking habbits, as if all of your notes could be handed to your client at any moment. This mindset will keep you organized and develop good habits. You'll find yourself missing services, directories, steps you took leading up to your initial shell or a cluster of screenshots with sub par explanations of what your screenshot means otherwise.
 
 I personally have used Microsoft OneNote and highly recommend it.
 
@@ -43,7 +43,7 @@ My most effective method for Nmap scanning is to do a full scan with verbose out
   * To scan individual ports, ssh for example
   ```nmap -sV -sC -Pn -p 22 -vv <host>```
   * You can also specify multiple ports
-  ```nmap -sV -sC -Pn -p 21,22,80,,445 -vv <host>```
-  * -vv will show open port detections real time so you wont have to wait for the full scan to finish before knowing if a port is open to access.
+  ```nmap -sV -sC -Pn -p 22,80,445 -vv <host>```
+  * -vv will show open port detections in real time so you wont have to wait for the full scan to finish before knowing if a port is open to access.
   
 (page will be updated further soon...)
