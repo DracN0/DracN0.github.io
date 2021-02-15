@@ -9,29 +9,20 @@ Enumeration is the absoulute most important part yet tedious part of a penetrati
 
 Don't worry if enumeration is hard for you, especially at first. The more you do it, the more you'll get used seeing standard services like SSH, FTP, HTTP, etc. & what to use them for. If you want to improve, just get your hands dirty. Experience is the best teacher.
 
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Where to start
 
-1. Numbered
-2. List
+### Nmap
+Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection.
 
-**Bold** and _Italic_ and `Code` text
+My most effective method for Nmap scanning is to do a full scan with verbose output.
 
-[Link](url) and ![Image](src)
-```
+```Nmap -sV -sC -Pn -p- -vv <host>```
+#### What each script does
+-sV: Probe open ports to determine service/version info
+-sC: equivalent to --script=default 
+  - This will run nmap default nse scripts (https://nmap.org/book/man-nse.html)
+-Pn: Treat the target as "online"
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DracN0/DracN0.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+(page will be updated further soon...)
