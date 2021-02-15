@@ -1,8 +1,8 @@
-#My OSCP and Penetration Testing Blog
+# My OSCP and Penetration Testing Blog
 
 This blog will be used to include all gathered techniques, methods, and research used for penetration testing on both Hack The Box & OSCP/PWK.
 
-#Enumeration
+# Enumeration
 
 Enumeration is the absoulute most important part yet tedious part of a penetration test. If you feel like you have hit a wall, specifically for HTB/OSCP/PWK, you most likely have not done enough enumeration. Something that helps keep me focused and "mentally organized" is to have the mindset:
 "There IS a way in. I just need to narrow down where it's at."
