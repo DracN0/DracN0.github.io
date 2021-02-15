@@ -18,11 +18,16 @@ Nmap is used to discover hosts and services on a computer network by sending pac
 
 My most effective method for Nmap scanning is to do a full scan with verbose output.
 
-```Nmap -sV -sC -Pn -p- -vv <host>```
+```nmap -sV -sC -Pn -p- -vv <host>```
 #### What each script does
-* -sV: Probe open ports to determine service/version info
-* -sC: equivalent to --script=default 
-  * - This will run nmap default nse scripts (https://nmap.org/book/man-nse.html)
-* -Pn: Treat the target as "online"
-
+* -sV Probe open ports to determine service/version info
+* -sC equivalent to --script=default 
+  * This will run nmap default nse scripts (https://nmap.org/book/man-nse.html)
+* -Pn Treat the target as "online"
+* -p- will scan all ports
+  * To scan individual ports, ssh for example
+  ```nmap -sV -sC -Pn -p 22 -vv <host>```
+  * You can also specify multiple ports
+  ```nmap -sV -sC -Pn -p 21,22,80,443,8080,445 -vv <host>```
+  
 (page will be updated further soon...)
