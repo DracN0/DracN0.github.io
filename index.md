@@ -20,9 +20,9 @@ My most effective method for Nmap scanning is to do a full scan with verbose out
 
 ```Nmap -sV -sC -Pn -p- -vv <host>```
 #### What each script does
--sV: Probe open ports to determine service/version info
--sC: equivalent to --script=default 
-  - This will run nmap default nse scripts (https://nmap.org/book/man-nse.html)
--Pn: Treat the target as "online"
+* -sV: Probe open ports to determine service/version info
+* -sC: equivalent to --script=default 
+  * - This will run nmap default nse scripts (https://nmap.org/book/man-nse.html)
+* -Pn: Treat the target as "online"
 
 (page will be updated further soon...)
