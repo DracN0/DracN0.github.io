@@ -1,4 +1,4 @@
-# My OSCP and Penetration Testing Blog
+# OSCP and Penetration Testing Blog
 
 This blog will be used to include all gathered techniques, methods, and research used for penetration testing on both Hack The Box & OSCP/PWK.
 
