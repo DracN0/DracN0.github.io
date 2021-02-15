@@ -13,6 +13,21 @@ Don't worry if enumeration is hard for you, especially at first. The more you do
 
 ## Where to start
 
+### Note Taking 
+
+Taking organized notes is severely important. I cannot stress it enough that your documentation is both very important to you, and far more important to the client. Make good not taking habbits, as if all of your notes could be handed to your client at any moment. This mindset will keep you organized and develop good habbits. You'll find yourself missing services, directories, steps you took leading up to your inital shell or a cluster of screenshots with sub par explanations of what your screenshot means.
+
+I personally have used Microsoft OneNote and highly recommend it.
+
+#### Other community suggested note taking resources
+* cherrytree (https://www.giuspen.com/cherrytree/)
+  * I've read people had issues with cherrytree when it comes to making large files, this steered me away.
+* Obsidian - really badass (https://obsidian.md/)
+* Evernote - (https://evernote.com/)
+  * Have not used
+  
+Of course, find what works best for you. Everyone is different.
+
 ### Nmap
 Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection.
 
@@ -29,5 +44,6 @@ My most effective method for Nmap scanning is to do a full scan with verbose out
   ```nmap -sV -sC -Pn -p 22 -vv <host>```
   * You can also specify multiple ports
   ```nmap -sV -sC -Pn -p 21,22,80,443,8080,445 -vv <host>```
+  * -vv will show open port detections real time so you wont have to wait for the full scan to finish before knowing if a port is open to access.
   
 (page will be updated further soon...)
