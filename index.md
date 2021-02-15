@@ -15,7 +15,7 @@ Don't worry if enumeration is hard for you, especially at first. The more you do
 
 ### Note Taking 
 
-Taking organized notes is severely important. I cannot stress it enough that your documentation is both very important to you, and far more important to the client. Make good not taking habbits, as if all of your notes could be handed to your client at any moment. This mindset will keep you organized and develop good habbits. You'll find yourself missing services, directories, steps you took leading up to your inital shell or a cluster of screenshots with sub par explanations of what your screenshot means.
+Taking organized notes is severely important. I cannot stress it enough that your documentation is both very important to you, and far more important to the client. Make good not taking habbits, as if all of your notes could be handed to your client at any moment. This mindset will keep you organized and develop good habits. You'll find yourself missing services, directories, steps you took leading up to your initial shell or a cluster of screenshots with sub par explanations of what your screenshot means.
 
 I personally have used Microsoft OneNote and highly recommend it.
 
