@@ -43,7 +43,7 @@ My most effective method for Nmap scanning is to do a full scan with verbose out
   * To scan individual ports, ssh for example
   ```nmap -sV -sC -Pn -p 22 -vv <host>```
   * You can also specify multiple ports
-  ```nmap -sV -sC -Pn -p 21,22,80,443,8080,445 -vv <host>```
+  ```nmap -sV -sC -Pn -p 21,22,80,,445 -vv <host>```
   * -vv will show open port detections real time so you wont have to wait for the full scan to finish before knowing if a port is open to access.
   
 (page will be updated further soon...)
