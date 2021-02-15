@@ -1,14 +1,14 @@
-## Welcome to GitHub Pages
+#My OSCP and Penetration Testing Blog
 
-You can use the [editor on GitHub](https://github.com/DracN0/DracN0.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+This blog will be used to include all gathered techniques, methods, and research used for penetration testing on both Hack The Box & OSCP/PWK.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#Enumeration
 
-### Markdown
+Enumeration is the absoulute most important part yet tedious part of a penetration test. If you feel like you have hit a wall, specifically for HTB/OSCP/PWK, you most likely have not done enough enumeration. Something that helps keep me focused and "mentally organized" is to have the mindset:
+"There IS a way in. I just need to narrow down where it's at."
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Don't worry if enumeration is hard for you, especially at first. The more you do it, the more you'll get used seeing standard services like SSH, FTP, HTTP, etc. & what to use them for. If you want to improve, just get your hands dirty. Experience is the best teacher.
 
-```markdown
 Syntax highlighted code block
 
 # Header 1
