@@ -32,7 +32,7 @@ Nmap is used to discover hosts and services on a computer network by sending pac
 My most effective method for Nmap scanning is to do a full scan with verbose output.
 
 ```nmap -sV -sC -Pn -p- -vv <host>```
-#### What each script does
+#### Nmap Flags
 * -sV Probe open ports to determine service/version info
 * -sC equivalent to --script=default 
   * This will run nmap default nse scripts (https://nmap.org/book/man-nse.html)
