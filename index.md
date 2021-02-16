@@ -15,18 +15,16 @@ Don't worry if enumeration is hard for you, especially at first. The more you do
 
 ### Note Taking 
 
-Taking organized notes is severely important. I cannot stress it enough that your documentation is both very important to you, and far more important to the client. Develop good note taking habits, as if all of your notes could be handed to your client at any moment. This mindset will keep you organized and develop good habits. You'll find yourself missing services, directories, steps you took leading up to your initial shell or a cluster of screenshots with sub par explanations of what your screenshot means otherwise.
+Taking organized notes is severely important. I cannot stress it enough that your documentation is both very important to you, and far more important to the client. Develop good note taking habits, as if all of your notes could be handed to your client at any moment. Otherwise, you'll find yourself missing services, directories, steps you took leading up to your initial shell or a cluster of screenshots with sub par explanations of what your screenshot means.
 
-I personally have used Microsoft OneNote and highly recommend it.
+I personally use Microsoft OneNote and highly recommend it. 
 
-#### Other community suggested note taking resources
+#### Other community suggested note taking resources.
+
 * cherrytree (https://www.giuspen.com/cherrytree/)
   * I've read people had issues with cherrytree when it comes to making large files, this steered me away.
 * Obsidian - really badass (https://obsidian.md/)
 * Evernote - (https://evernote.com/)
-  * Have not used
-  
-Of course, find what works best for you. Everyone is different.
 
 ### Nmap
 Nmap is used to discover hosts and services on a computer network by sending packets and analyzing the responses. Nmap provides a number of features for probing computer networks, including host discovery and service and operating system detection.
