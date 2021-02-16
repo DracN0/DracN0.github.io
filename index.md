@@ -46,4 +46,7 @@ My most effective method for Nmap scanning is to do a full scan with verbose out
   ```nmap -sV -sC -Pn -p 22,80,445 -vv <host>```
 * -vv will show open port detections in real time so you wont have to wait for the full scan to finish before knowing if a port is open to access.
   
+Remember to always check the man pages, or for all Nmap optional flags
+```Nmap --help```
+  
 (page will be updated further soon...)
