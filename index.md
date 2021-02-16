@@ -5,7 +5,7 @@ This blog will be used to include all gathered techniques, methods, and research
 # Enumeration
 
 Enumeration is the absoulute most important yet tedious part of a penetration test. If you feel like you have hit a wall, specifically for HTB/OSCP/PWK, you most likely have not done enough enumeration. Something that helps keep me focused and "mentally organized" is to have the mindset:
-"There IS a way in. I just need to narrow down where it's at."
+"There is a way in. I just need to narrow down where it's at."
 
 Don't worry if enumeration is hard for you, especially at first. The more you do it, the more you'll get used seeing standard services like SSH, FTP, HTTP, etc. & what to use them for. If you want to improve, just get your hands dirty. Experience is the best teacher.
 
